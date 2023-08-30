@@ -1,4 +1,5 @@
-asses for linked list."""
+#!/usr/bin/python3
+"""Define classes for linked list."""
 
 
 class Node:
@@ -73,3 +74,4 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
+
