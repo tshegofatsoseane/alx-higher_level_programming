@@ -1,12 +1,14 @@
-afe_print_list_integers(my_list=[], x=0):
-    """Print the first number of integer elements of a list.
+#!/usr/bin/python3
+
+def safe_print_list_integers(my_list=[], x=0):
+    """Print number of elements of a list.
 
     Args:
-        my_list (list): The list to store elemts to print.
-        x (int): No. of elements of my_list.
+        my_list (list): The list to store elements to print.
+        x (int): No of elements of my_list.
 
     Returns:
-        Results 
+        Results
     """
     ret = 0
     for i in range(0, x):

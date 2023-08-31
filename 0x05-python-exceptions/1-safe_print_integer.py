@@ -1,4 +1,6 @@
-afe_print_integer(value):
+#!/usr/bin/python3
+
+def safe_print_integer(value):
     """Print int in "{:d}".format().
 
     Args:
